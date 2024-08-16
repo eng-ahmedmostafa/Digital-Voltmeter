@@ -1,6 +1,6 @@
 # Digital-Voltmeter
 
-In this project, a 0-25V digital voltmeter is designed using the ATMEGA32 microcontroller, which features a 10-bit ADC for precise voltage measurement. Since the microcontroller's ADC can only handle a maximum of 5V, a voltage divider circuit is implemented to scale down the input voltage to within this range.
+In this project, I followed MISRA C guidelinesو using the ATMEGA32 microcontroller, which features a 10-bit ADC for precise voltage measurement. Since the microcontroller's ADC can only handle a maximum of 5V, a voltage divider circuit is implemented to scale down the input voltage to within this range.
 
 The voltage divider uses two resistors to proportionally reduce the input voltage (up to 25V) to a 5V output. The microcontroller then multiplies this value by 5 in the software to display the actual input voltage on a 16x2 LCD screen. Key components include the ATMEGA32A microcontroller, an LCD for display, and various resistors and capacitors for circuit stability and noise reduction.
 
